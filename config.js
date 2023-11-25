@@ -10,7 +10,7 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['528241050228', '👑 𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬 👑', true],
+  ['527223931652', '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟', true],
 
 ];
 
@@ -18,11 +18,11 @@ global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = 'Sticker';
-global.author = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬';
+global.author = '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟';
 global.wm = 'The Mystic - Bot';
 global.titulowm = 'The Mystic - Bot';
 global.titulowm2 = `The Mystic - Bot`
-global.igfg = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬';
+global.igfg = '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');

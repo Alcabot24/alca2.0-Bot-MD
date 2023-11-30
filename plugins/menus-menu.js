@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬
+    const str = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧’𝟭.𝟬
 
  ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *◉—𝗔𝗟𝗖𝗔 𝗕𝗢𝗧—◉*
@@ -76,38 +76,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗕𝗨𝗦𝗖𝗔𝗥 ✨*
-┃ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬 ≡┃
-┣👤 _.githubsearch *<texto>*_
-┣👤 _.pelisplus *<texto>*_
-┣👤 _.modapk *<texto>*_
-┣👤 _.stickersearch *<texto>*_
-┣👤 _.stickersearch2 *<texto>*_
-┣👤 _.animeinfo *<texto>*_
-┣👤 _.google *<texto>*_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃ ✨𝗔𝗝𝗨𝗦𝗧𝗘𝗦 𝗗𝗘 𝗚𝗥𝗨𝗣𝗢𝗦 ✨* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣🟢 _.add *<numero>*_
-┣🟢 _.kick *<@tag>*_
-┣🟢 _.kick2 *<@tag>*_
-┣🟢 _.listanum *<texto>*_
-┣🟢 _.kicknum *<texto>*_
-┣🟢 _.grupo *<abrir / cerrar>*_
-┣🟢 _.promote *<@tag>*_
-┣🟢 _.demote *<@tag>*_
-┣🟢 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣🟢 _.demote *<@tag>*_
-┣🟢 _.infogroup_
-┣🟢 _.resetlink_
-┣🟢 _.link_
-┣🟢 _.setname *<texto>*_
-┣🟢 _.setdesc *<texto>*_
-┣🟢 _.invocar *<texto>*_
-┣🟢 _.setwelcome *<texto>*_
-┣🟢 _.setbye *<texto>*_
-┣🟢 _.setpp *<imagen>*_
+┃ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧’𝟭.𝟬 ≡┃
+┣🟢 _.githubsearch *<texto>*_
+┣🟢 _.pelisplus *<texto>*_
+┣🟢 _.modapk *<texto>*_
+┣🟢 _.stickersearch *<texto>*_
+┣🟢 _.stickersearch2 *<texto>*_
+┣🟢 _.animeinfo *<texto>*_
+┣🟢 _.google *<texto>*_
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗙𝗥𝗔𝗦𝗘𝗦 𝗢 𝗣𝗜𝗥𝗢𝗣𝗢𝗦✨*

@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧’𝟭.𝟬
+    const str = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟰
 
  ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *◉—𝗔𝗟𝗖𝗔 𝗕𝗢𝗧—◉*
@@ -76,7 +76,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗕𝗨𝗦𝗖𝗔𝗥 ✨*
-┃ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧’𝟭.𝟬 ≡┃
+┃ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟰 ≡┃
 ┣🟢 _.githubsearch *<texto>*_
 ┣🟢 _.pelisplus *<texto>*_
 ┣🟢 _.modapk *<texto>*_

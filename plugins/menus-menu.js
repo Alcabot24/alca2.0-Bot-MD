@@ -21,13 +21,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟰
+    const str = ` 𝗦𝗘𝗥𝗩𝗜𝗖𝗜𝗢𝗦 𝗗𝗜𝗚𝗜𝗧𝗔𝗟𝗘𝗦 𝗕𝗖
 
  ┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝗔𝗟𝗖𝗔 𝗕𝗢𝗧—◉*
+┃ *◉𝗦𝗘𝗥𝗩𝗜𝗖𝗜𝗢𝗦 𝗗𝗜𝗚𝗜𝗧𝗔𝗟𝗘𝗦 𝗕𝗖*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* ALCAVENTAS
-┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 824 105 0228
+┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* 𝗦𝗘𝗥𝗩𝗜𝗖𝗜𝗢𝗦 𝗗𝗜𝗚𝗜𝗧𝗔𝗟𝗘𝗦 𝗕𝗖
+┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 663 153 5860
 ┗━━━━━━━━━━━━━━━━━━┛
 
 *┃𝗕 𝗢 𝗧 𝗠 𝗘 𝗡 𝗨 𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗗𝗢𝗥𝗘𝗦*┃
@@ -58,15 +58,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚙️ _.infogroup_
 ┣⚙️ _.resetlink_
 ┣⚙️ _.link_
-┣⚙️ _.setname *<texto>*_
-┣⚙️ _.setdesc *<texto>*_
-┣⚙️ _.invocar *<texto>*_
-┣⚙️ _.setwelcome *<texto>*_
-┣⚙️ _.setbye *<texto>*_
-┣⚙️ _.hidetag *<texto>*_
-┣⚙️ _.hidetag *<audio>*_
-┣⚙️ _.hidetag *<video>*_
-┣⚙️ _.hidetag *<imagen>*_
+┣⚙️ _.todos *<texto>*_ (Mencionar a todos)
+┣⚙️ _.setwelcome *<texto>*_ (Editar Bienvenidas)
+┣⚙️ _.setbye *<texto>*_ (Editar Despedidas)
 ┣⚙️ _.warn *<@tag>*_
 ┣⚙️ _.unwarn *<@tag>*_
 ┣⚙️ _.listwarn_
@@ -76,7 +70,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗕𝗨𝗦𝗖𝗔𝗥 ✨*
-┃ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟰 ≡┃
 ┣🟢 _.githubsearch *<texto>*_
 ┣🟢 _.pelisplus *<texto>*_
 ┣🟢 _.modapk *<texto>*_
@@ -93,7 +86,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚫️ _.fraseromantica_
 ┣⚫️ _.historiaromantica_
 ┗━━━━━━━━━━━━━━━━┛
-
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦✨*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
@@ -117,7 +109,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🟣 _.play *<texto de la canción >*_
 ┗━━━━━━━━━━━━━━━━┛
-𝘾𝙍𝙀𝘼𝘿𝙊𝙍 @𝘼𝙇𝘾𝘼𝙎𝙃𝙊𝙋 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +5282410502208`.trim();
+ 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +526631535860`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};

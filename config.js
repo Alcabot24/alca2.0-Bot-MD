@@ -20,8 +20,8 @@ global.prems = ['51995386439'];
 global.packname = 'Sticker';
 global.author = '𝗠𝗮𝘆𝗶𝘁𝗼|𝗕𝗼𝘁 🔫';
 global.wm = '𝗠𝗮𝘆𝗶𝘁𝗼|𝗕𝗼𝘁 🔫';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
+global.titulowm = '𝗠𝗮𝘆𝗶𝘁𝗼|𝗕𝗼𝘁 🔫';
+global.titulowm2 = `𝗠𝗮𝘆𝗶𝘁𝗼|𝗕𝗼𝘁 🔫`
 global.igfg = '𝗠𝗮𝘆𝗶𝘁𝗼|𝗕𝗼𝘁 🔫';
 global.wait = '*[ ⏳ ] Cargando...*';
 

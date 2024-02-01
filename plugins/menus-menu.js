@@ -22,10 +22,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = ` 𝗡𝗔𝗝𝗘𝗥𝗔 𝗕𝗢𝗧
-
- ┏━━━━━━━━━━━━━━━━━━┓
+┏━━━━━━━━━━━━━━━━━━┓
 ┃ *◉—𝗡𝗔𝗝𝗘𝗥𝗔 𝗕𝗢𝗧—◉*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* 𝗡𝗔𝗝𝗘𝗥𝗔 𝗕𝗢𝗧
 ┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +502 4949 7668
 ┗━━━━━━━━━━━━━━━━━━┛
@@ -43,7 +41,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃ ✨𝗔𝗝𝗨𝗦𝗧𝗘𝗦 𝗗𝗘 𝗚𝗥𝗨𝗣𝗢𝗦 ✨* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣⚙️ _.add *<numero>*_
 ┣⚙️ _.kick *<@tag>*_
 ┣⚙️ _.kick2 *<@tag>*_
@@ -76,7 +73,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗕𝗨𝗦𝗖𝗔𝗥 ✨*
-┃ 𝗡𝗔𝗝𝗘𝗥𝗔 𝗕𝗢𝗧 ≡┃
 ┣👤 _.githubsearch *<texto>*_
 ┣👤 _.pelisplus *<texto>*_
 ┣👤 _.modapk *<texto>*_
@@ -87,16 +83,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗙𝗥𝗔𝗦𝗘𝗦 𝗢 𝗣𝗜𝗥𝗢𝗣𝗢𝗦✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣⚫️ _.piropo_
 ┣⚫️ _.consejo_
 ┣⚫️ _.fraseromantica_
 ┣⚫️ _.historiaromantica_
 ┗━━━━━━━━━━━━━━━━┛
-
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🟠 _.clima *<país> <ciudad>*_
 ┣🟠 _.encuesta *<texto1|texto2...>*_
 ┣🟠 _.ocr *<responde a imagen>*_
@@ -107,17 +100,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃ ✨𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🟣 _.sticker *<responder a imagen o video>*_
 ┣🟣 _.kiss *<@tag>*_
 ┣🟣 _.dado_
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃ ✨ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🟣 _.play *<texto de la canción >*_
 ┗━━━━━━━━━━━━━━━━┛
-𝘾𝙍𝙀𝘼𝘿𝙊𝙍 @𝘼𝙇𝘾𝘼𝙎𝙃𝙊𝙋 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +5282410502208`.trim();
+𝘾𝙍𝙀𝘼𝘿𝙊𝙍 @NAJERA`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
